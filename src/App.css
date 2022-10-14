@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Roboto:wght@700&display=swap');
+
+.homeTitle {
+  text-align: center;
+  font-family: 'Comic Neue', cursive;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.active {
+  color: rgb(255, 17, 17);
+}
+
+.pokenav{
+  color: #fff;
+}
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeImg{
+  height: 600px;
+  margin-top: 20px;
+}
+
+.navbar {
+  font-family: 'Roboto', sans-serif;
+  background: #1d426d;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.masterball{
+  height: 80px;
+  width: 80px;
+}
+
+.navbarTitle{
+  color: white;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+button{
+  
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 2px 16px;
+  height: 38px;
+  min-width: 96px;
+  min-height: 38px;
+  border: none;
+  color: #fff;
+  background-color: rgb(88, 101, 242);
+  transition: background-color .17s ease,color .17s ease;
+
+
+}
+button:hover {
+  background-color: rgb(71, 82, 196);
+}
+
+select{
+  margin: 10px;
+  height: 30px;
+}
+
+.pokeTitle{
+
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+.pokeContainer{
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+.pokeName{
+  font-family: 'Comic Neue', cursive;
+  font-size: 30px;
+  text-decoration: underline;
+  margin-top: 10px;
+
+}
+
+.pokeName:first-letter {
+  text-transform: uppercase;
+}
+
+.stats{
+  font-family: 'Comic Neue', cursive;
+}
+
+.type{
+  font-family: 'Comic Neue', cursive;
+  margin-left: 30px;
+}
+
+.type:first-letter {
+  text-transform: uppercase;
+}
+
+.detallesContainer{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
